@@ -25,8 +25,8 @@
       <author></author>
       <description>&lt;p&gt;Adding posts to the folders seems a bit complicated. It sounds like there are a couple of others who also decided to change that.  When I have time, I’ll read these articles:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://localhost:8080/articles/Fourth%20Post/marcocarag.com&quot;&gt;http://marcocarag.com/2014/03/30/migrating-my-blog-s-content-to-wintersmith/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://localhost:8080/articles/Fourth%20Post/Andrew%20Clark%20-%208%20Nov%2013&quot;&gt;http://andrewphilipclark.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://marcocarag.com/2014/03/30/migrating-my-blog-s-content-to-wintersmith/&quot;&gt;marcocarag.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://andrewphilipclark.com/&quot;&gt;Andrew Clark - 8 Nov 13&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -55,7 +55,7 @@
 &lt;/ol&gt;
 &lt;p&gt;Many thanks to the developer of &lt;a href=&quot;http://localhost:8080/articles/First%20Post/johan-nordberg.com&quot;&gt;Wintersmith&lt;/a&gt;, as well as:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://localhost:8080/articles/First%20Post/thisisdallas.github.io/Simple-Grid&quot;&gt;Simple Grid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://thisisdallas.github.io/Simple-Grid&quot;&gt;Simple Grid&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://yearlonghackathon.com/&quot;&gt;YearlongHackathon&lt;/a&gt;  (for explaining how to add the partials section for Jade that I was able to use to auto generate the menu sidebar).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;and so many other articles that were read in the google browsathon that it took to get this initial web site up!&lt;/p&gt;

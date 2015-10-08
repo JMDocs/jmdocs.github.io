@@ -88,6 +88,10 @@ li {
   margin-top: 0.25em;
 }
 
+li a {
+    font-weight: 600;
+}
+
 blockquote {
   margin: 1.2em 3em;
   padding-left: 1em;
