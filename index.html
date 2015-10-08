@@ -9,67 +9,87 @@
     <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="Someday I may know something">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/simplegrid.css">
   </head>
   <body>
     <header class="header">
-      <div class="content-wrap">
-        <div class="logo">
-          <h1><a href="http://localhost:8080">Julia's Test Wintersmith</a></h1>
-          <p class="description">Someday I may know something</p>
-        </div>
+      <!--img(src="" class="mytest")-->
+      <div class="logo">
+        <h1><a href="http://localhost:8080">Julia's Test Wintersmith</a></h1>
+        <p class="description">Someday I may know something</p>
       </div>
     </header>
-    <div id="content">
-      <div class="content-wrap">
+    <div class="grid grid-pad">
+      <div id="sidebar" class="col-4-12">
+        <nav role="navigation" class="top-bar">
+          <h3>Blog Posts</h3>
+          <h4><a href="#Next Steps">Next Steps</a></h4>
+          <h4><a href="#Another thing">Another thing</a></h4>
+          <h4><a href="#A Second Post">A Second Post</a></h4>
+          <h4><a href="#Success!">Success!</a></h4>
+        </nav>
+      </div>
+      <div id="content" class="col-8-12">
         <article class="article intro">
           <header>
-            <p class="date"><span></span></p>
-            <h2><a href="/articles/hello-world/">Getting Started</a></h2>
+            <p class="date"><span>08. October 2015</span></p>
+            <h2><a name="Next Steps">Next Steps</a></h2>
           </header>
-          <section class="content"><p>I am using Wintersmith to test how static web pages work. This is leading me down a rabbit hole of "things to learn"!  I have managed to get git and github talking to load my site. Next up... styling the site and figuring out jade templates.  I'm sure many other questions and things to investigate will arise as I go...</p>
+          <section class="content"><p>I’ve learned the basics of how the Wintersmith templates work. In the process I have also learned the basics of git, github, grunt, npm, etc, etc.  There are a lot of pieces to these things! When I have time I’d like to learn more about node.js, responsive design, and several hundred other things that might be&nbsp;helpful. </p>
 
-            
           </section>
         </article>
         <article class="article intro">
           <header>
-            <p class="date"><span>01. April 2013</span></p>
-            <h2><a href="/articles/red-herring/">A red herring</a></h2>
+            <p class="date"><span>08. October 2015</span></p>
+            <h2><a name="Another thing">Another thing</a></h2>
           </header>
-          <section class="content"><p>A long time ago, when the world was young – someone put some food on their tongue.
-They tasted the food, and thought it was nice. Most fruit liked it – but banana’s thought&nbsp;twice.</p>
-<p>
-            <p class="more"><a href="/articles/red-herring/">more</a></p>
+          <section class="content"><p>Adding posts to the folders seems a bit complicated. It sounds like there are a couple of others who also decided to change that.  When I have time, I’ll read these&nbsp;articles:</p>
+<ul>
+<li><a href="/articles/Fourth%20Post/marcocarag.com">http://marcocarag.com/2014/03/30/migrating-my-blog-s-content-to-wintersmith/</a></li>
+<li><a href="/articles/Fourth%20Post/Andrew%20Clark%20-%208%20Nov%2013">http://andrewphilipclark.com/</a></li>
+</ul>
+
           </section>
         </article>
         <article class="article intro">
           <header>
-            <p class="date"><span>01. October 2012</span></p>
-            <h2><a href="/articles/another-test/">Code and stuff!</a></h2>
+            <p class="date"><span>08. October 2015</span></p>
+            <h2><a name="A Second Post">A Second Post</a></h2>
           </header>
-          <section class="content"><p>Syntax highlighting with <a href="http://softwaremaniacs.org/soft/highlight/en/">highlight.js</a>.
-The theme used is tomorrow, you can find more themes <a href="http://jmblog.github.io/color-themes-for-highlightjs/">here</a>.</p>
-<p>
-            <p class="more"><a href="/articles/another-test/">more</a></p>
+          <section class="content"><p>Adding another couple of posts to the&nbsp;system…</p>
+
+          </section>
+        </article>
+        <article class="article intro">
+          <header>
+            <p class="date"><span>06. October 2015</span></p>
+            <h2><a name="Success!">Success!</a></h2>
+          </header>
+          <section class="content"><p>This project uses the Wintersmith static web site generator. My goals for doing this project were&nbsp;to:  </p>
+<ol>
+<li>Learn how to host a free web site on&nbsp;Github.</li>
+<li>Learn how Markdown might be used to author&nbsp;documents.</li>
+<li>Learn how a static web site generator that uses Markdown&nbsp;works. </li>
+<li>Update my <span class="caps">CSS</span>&nbsp;skills.</li>
+<li>Experiment with responsive&nbsp;grids. </li>
+</ol>
+<p>Many thanks to the developer of <a href="/articles/First%20Post/johan-nordberg.com">Wintersmith</a>, as well&nbsp;as:</p>
+<ul>
+<li><a href="/articles/First%20Post/thisisdallas.github.io/Simple-Grid">Simple&nbsp;Grid</a></li>
+<li><a href="http://yearlonghackathon.com/">YearlongHackathon</a>  (for explaining how to add the partials section for Jade that I was able to use to auto generate the menu&nbsp;sidebar).</li>
+</ul>
+<p>and so many other articles that were read in the google browsathon that it took to get this initial web site&nbsp;up!</p>
+
           </section>
         </article>
       </div>
     </div>
     <footer>
       <div class="content-wrap">
-        <div class="nav"><a href="/archive.html">« Archives</a><a href="/page/2/">Next page »</a>
+        <div class="nav">
         </div>
-        <section class="about"><p>Wintersmith is made by <a href="http://johan-nordberg.com">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.
-This footer text can be edited in about.md</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.</p>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur.</p>
-<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum.</p>
-
+        <section class="about">
         </section>
         <section class="copy">
           <p>&copy; 2015 Julia &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>

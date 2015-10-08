@@ -9,17 +9,18 @@
     <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="Someday I may know something">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/simplegrid.css">
   </head>
   <body class="article-detail">
     <header class="header">
-      <div class="content-wrap">
-        <h1>Markdown syntax</h1>
-        <p class="author">Written by <span class="author">John Gruber</span>
-        </p>
-      </div>
+      <h1>Markdown syntax</h1>
+      <p class="author">Written by <span class="author">John Gruber</span>
+      </p>
     </header>
-    <div id="content">
-      <div class="content-wrap">
+    <div class="grid grid-pad">
+      <div id="sidebar" class="col-4-12">
+      </div>
+      <div id="content" class="col-8-12">
         <article class="article">
           <section class="content"><p>Full markdown syntax taken from John Gruber’s <a href="http://daringfireball.net/projects/markdown/syntax">Daring Fireball</a>.
 Did you know that 9 out of 10 bloggers prefer to write in&nbsp;markdown?</p>
@@ -675,16 +676,10 @@ _   underscore
     <footer>
       <div class="content-wrap">
         <div class="nav"><a href="/">« Full blog</a></div>
-        <section class="about"><p>Wintersmith is made by <a href="http://johan-nordberg.com">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.
-This footer text can be edited in about.md</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.</p>
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur.</p>
-<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum.</p>
+        <section class="about"><p>This project uses the Wintersmith static web site generator. My goal in this project was to (1) learn how to create a web site for hosting on Github, and (2) learn a means of posting to a blog using Markdown, and (3) experiement with responsive grids. </p>
+<p>Many thanks to the developer of Wintersmith, as well as:</p>
+<p>[id]: thisisdallas.github.io/Simple-Grid ‘Simple-Grid’ (I added the simple grid my site)</p>
+<p>[id]: <a href="http://yearlonghackathon.com/">http://yearlonghackathon.com/</a>  ‘yearlonghackathon’ (for explaining how to add the partials section for jade)</p>
 
         </section>
         <section class="copy">
