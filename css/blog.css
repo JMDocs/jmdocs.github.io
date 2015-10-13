@@ -69,10 +69,10 @@ a:hover {
 
 .content {
   display: inline;
-  
-    padding: 2em 1em 1em;
+  padding: 1em;
   
 
+}
 
 /*
 .posttitle {
@@ -182,7 +182,7 @@ footer a {
         padding: 2em 2em 0;
         margin-left: 25%;
         max-width: 900px;
-      
+       padding-left: 60px;
       
     }
 
