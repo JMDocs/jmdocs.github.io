@@ -25,9 +25,9 @@
 &lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt; This project has taken me quite far from writing while doing the setup. It will be interesting to see how comfortable it is to work with Markdown and pushing posts out. How this sort of system will work for documentation (and pdfs) is still a question. So far, so good.&lt;/p&gt;
 &lt;p&gt;Thanks to the developer of &lt;a href=&quot;http://localhost:8080/articles/johan-nordberg.com&quot;&gt;Wintersmith&lt;/a&gt;, as well as:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://thisisdallas.github.io/Simple-Grid&quot;&gt;Simple Grid&lt;/a&gt; (for getting me started on how grids work. Part way along I switched to pureio.)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://yearlonghackathon.com/&quot;&gt;YearlongHackathon&lt;/a&gt;  (for explaining how to add the partials section for Jade that I was able to use to auto generate the menu sidebar).&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.alexnormand.com/&quot;&gt;Alex Normand&lt;/a&gt; (for having a great site, from which I learned about pureio.css).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://thisisdallas.github.io/Simple-Grid&quot;&gt;Simple Grid&lt;/a&gt; - for getting me started on how grids work. Part way along I switched to pureio.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://yearlonghackathon.com/&quot;&gt;YearlongHackathon&lt;/a&gt;  - for explaining how to add the partials section for Jade that I was able to use to auto generate the menu sidebar.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.alexnormand.com/&quot;&gt;Alex Normand&lt;/a&gt; - for having a great site, from which I got the idea to use pureio.css.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://marcocarag.com/2014/03/30/migrating-my-blog-s-content-to-wintersmith/&quot;&gt;marcocarag.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://andrewphilipclark.com/&quot;&gt;Andrew Clark - 8 Nov 13&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
