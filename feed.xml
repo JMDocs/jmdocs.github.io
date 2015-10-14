@@ -5,9 +5,48 @@
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://localhost:8080</link>
     <description>Someday I may know something</description>
-    <pubDate>Mon, 05 Oct 2015 17:00:00 -0700</pubDate>
+    <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Adding Photos</title>
+      <link>http://localhost:8080/articles/TestPhotos.html</link>
+      <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/TestPhotos.html</guid>
+      <author></author>
+      <description>&lt;p&gt;I am interested in how images can be added to the Wintersmith system. To start with, I’ve inserted a couple of random photos.  &lt;/p&gt;
+&lt;p&gt;They photos seem to scale fairly well, but I can probably improve that. But what if I want to use a different photo in the mobile versus desktop version? At the moment, I don’t know how that can be done. Javascript?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/road.png&quot; alt=&quot;Random Road&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/mytest.png&quot; alt=&quot;Random Street&quot;&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Do I need Sass or Less?</title>
+      <link>http://localhost:8080/articles/Preprocessors.html</link>
+      <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/Preprocessors.html</guid>
+      <author></author>
+      <description>&lt;p&gt;In reading around on the web about how to implement Wintersmith, I came upon many blogs extolling the benefits of Sass/Less for writing and maintaining CSS.&lt;/p&gt;
+&lt;p&gt;Sass, Less, Coffeescript, and HAML are all preprocessors. Wintersmith uses the Coffeescript preprocessor, and Jade, a template engine that is based on the HAML preprocessor.&lt;/p&gt;
+&lt;p&gt;Preprocessors are designed to make it easier to maintain code. The code is written in the preprocessor format, and then is converted to CSS/Javascript/HTML so that the information can be read on the web.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sass and Less translate into CSS&lt;/li&gt;
+&lt;li&gt;Coffeescript translates into Javascript&lt;/li&gt;
+&lt;li&gt;HAML translates into HTML&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;what-features-of-sass-less-make-it-helpful-&quot;&gt;What features of Sass/Less make it helpful?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;CSS Nesting&lt;/strong&gt;. This makes it easier to read the CSS file when you are styling a web site.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Variables&lt;/strong&gt;. In Sass you can define a variable for an item like a color that is used in many places in the web site. The variable is declared once. The variable name is used each time an element is set to the color.  If the color changes for the web site, only the variable needs to be updated.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Mixins&lt;/strong&gt;. A mixin allows you to define a snippet in CSS so you can use the same code in many places. You can write your own mixins, or use a library like the Compass or Bourbon. Mixins are often used for the repetitive CSS that is required for cross browser compatibility.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;answer-to-my-question-do-i-need-sass-or-less-&quot;&gt;Answer to my question: Do I need Sass or Less?&lt;/h2&gt;
+&lt;p&gt;Possibly in future. It sounds like the value of using it would come from adding it along with a library (Compass/Bourbon), so there would be the inevitable learning curve for that.  As well as the complexities of adding the node.js version (libSass) and learning how to compile it into CSS. For now I am answering my question with a no.  But it’s on the list for the future.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Why Wintersmith?</title>
       <link>http://localhost:8080/articles/WhyWintersmith.html</link>

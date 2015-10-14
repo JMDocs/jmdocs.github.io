@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <title>Do I need Sass or Less? - Julia's Wintersmith Blog
+    </title>
+    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="Someday I may know something">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="/css/grids-responsive-min.css">
+    <link rel="stylesheet" href="/css/blog.css">
+    <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway&amp;subset=latin" media="all">-->
+    <div id="layout" class="pure-g">
+      <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+          <h1>Julia's Wintersmith Blog</h1>
+          <h2>Someday I may know something</h2>
+          <nav> 
+            <ul class="nav-list">
+              <li class="nav-item"><a href="/index.html" title="Home" class="pure-button">Home</a></li>
+            </ul>
+            <ul class="nav-list">
+              <li class="nav-item"><a href="/archive.html" title="All Posts" class="pure-button">All Posts</a></li>
+            </ul>
+            <ul class="nav-list">
+              <li class="nav-item"><a href="/articles/About.html" title="About" class="pure-button">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="content pure-u-1 pure-u-md-3-4">
+        <h1>Do I need Sass or Less?</h1>
+        <article class="article">
+          <section class="content"><p>In reading around on the web about how to implement Wintersmith, I came upon many blogs extolling the benefits of Sass/Less for writing and maintaining&nbsp;<span class="caps">CSS</span>.</p>
+<p>Sass, Less, Coffeescript, and <span class="caps">HAML</span> are all preprocessors. Wintersmith uses the Coffeescript preprocessor, and Jade, a template engine that is based on the HAML&nbsp;preprocessor.</p>
+<p>Preprocessors are designed to make it easier to maintain code. The code is written in the preprocessor format, and then is converted to <span class="caps">CSS</span>/Javascript/HTML so that the information can be read on the&nbsp;web.  </p>
+<ul>
+<li>Sass and Less translate into&nbsp;<span class="caps">CSS</span></li>
+<li>Coffeescript translates into&nbsp;Javascript</li>
+<li><span class="caps">HAML</span> translates into&nbsp;HTML</li>
+</ul>
+<h2 id="what-features-of-sass-less-make-it-helpful-">What features of Sass/Less make it&nbsp;helpful?</h2>
+<ol>
+<li><p><strong><span class="caps">CSS</span> Nesting</strong>. This makes it easier to read the <span class="caps">CSS</span> file when you are styling a web&nbsp;site.</p>
+</li>
+<li><p><strong>Variables</strong>. In Sass you can define a variable for an item like a color that is used in many places in the web site. The variable is declared once. The variable name is used each time an element is set to the color.  If the color changes for the web site, only the variable needs to be&nbsp;updated.  </p>
+</li>
+<li><p><strong>Mixins</strong>. A mixin allows you to define a snippet in <span class="caps">CSS</span> so you can use the same code in many places. You can write your own mixins, or use a library like the Compass or Bourbon. Mixins are often used for the repetitive CSS that is required for cross browser&nbsp;compatibility.</p>
+</li>
+</ol>
+<h2 id="answer-to-my-question-do-i-need-sass-or-less-">Answer to my question: Do I need Sass or&nbsp;Less?</h2>
+<p>Possibly in future. It sounds like the value of using it would come from adding it along with a library (Compass/Bourbon), so there would be the inevitable learning curve for that.  As well as the complexities of adding the node.js version (libSass) and learning how to compile it into <span class="caps">CSS</span>. For now I am answering my question with a no.  But it’s on the list for the&nbsp;future.</p>
+</section>
+        </article>
+        <footer>
+          <div>
+            <p>&copy; 2015 Julia &mdash; powered by <a href="https://github.com/jnordberg/wintersmith">Wintersmith
+                </a></p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </head>
+</html>
