@@ -9,18 +9,6 @@
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>Adding Photos</title>
-      <link>http://localhost:8080/articles/TestPhotos.html</link>
-      <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/TestPhotos.html</guid>
-      <author></author>
-      <description>&lt;p&gt;I am interested in how images can be added to the Wintersmith system. To start with, I’ve inserted a couple of random photos.  &lt;/p&gt;
-&lt;p&gt;They photos seem to scale fairly well, but I can probably improve that. But what if I want to use a different photo in the mobile versus desktop version? At the moment, I don’t know how that can be done. Javascript?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/road.png&quot; alt=&quot;Random Road&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/mytest.png&quot; alt=&quot;Random Street&quot;&gt;&lt;/p&gt;
-</description>
-    </item>
-    <item>
       <title>Do I need Sass or Less?</title>
       <link>http://localhost:8080/articles/Preprocessors.html</link>
       <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
@@ -44,8 +32,20 @@
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Mixins&lt;/strong&gt;. A mixin allows you to define a snippet in CSS so you can use the same code in many places. You can write your own mixins, or use a library like the Compass or Bourbon. Mixins are often used for the repetitive CSS that is required for cross browser compatibility.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;My current answer to the question: Do I need Sass or Less:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;It sounds like the value of using it would come from adding it along with a library (Compass/Bourbon), so there would be the inevitable learning curve for that.  As well as the complexities of adding the node.js version (libSass) and learning how to compile it into CSS, and add it into Wintersmith. For now I am answering my question with a no.  But it’s on the list for the future. Along with Coffeescript and HAML/Jade!  It’s a long list.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;My current answer to the question - Do I need Sass or Less:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It sounds like the value of using it would come from adding it along with a library (Compass/Bourbon), so there would be the inevitable learning curve for that.  As well as the complexities of adding the node.js version (libSass) and learning how to compile it into CSS, and add it into Wintersmith. For now I am answering my question with a no.  But it’s on the list for the future. Along with Coffeescript and HAML/Jade… it’s a long list.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Adding Photos</title>
+      <link>http://localhost:8080/articles/TestPhotos.html</link>
+      <pubDate>Mon, 05 Oct 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/TestPhotos.html</guid>
+      <author></author>
+      <description>&lt;p&gt;I am interested in how images can be added to the Wintersmith system. To start with, I’ve inserted a couple of random photos.  &lt;/p&gt;
+&lt;p&gt;The photos seem to scale fairly well, but I can probably improve that. But what if I want to use a different photo in the mobile versus desktop version? At the moment, I don’t know how that can be done. Javascript?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/road.png&quot; alt=&quot;Random Road&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/mytest.png&quot; alt=&quot;Random Street&quot;&gt;&lt;/p&gt;
 </description>
     </item>
     <item>
