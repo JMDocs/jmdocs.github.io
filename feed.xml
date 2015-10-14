@@ -5,13 +5,13 @@
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://localhost:8080</link>
     <description>Someday I may know something</description>
-    <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
+    <pubDate>Wed, 07 Oct 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>Do I need Sass or Less?</title>
       <link>http://localhost:8080/articles/Preprocessors.html</link>
-      <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
+      <pubDate>Wed, 07 Oct 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/Preprocessors.html</guid>
       <author></author>
       <description>&lt;p&gt;In reading around on the web about how to implement Wintersmith, I came upon many blogs extolling the benefits of Sass/Less for writing and maintaining CSS.&lt;/p&gt;
@@ -39,7 +39,7 @@
     <item>
       <title>Adding Photos</title>
       <link>http://localhost:8080/articles/TestPhotos.html</link>
-      <pubDate>Mon, 05 Oct 2015 17:00:00 -0700</pubDate>
+      <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/TestPhotos.html</guid>
       <author></author>
       <description>&lt;p&gt;I am interested in how images can be added to the Wintersmith system. To start with, I’ve inserted a couple of random photos.  &lt;/p&gt;
