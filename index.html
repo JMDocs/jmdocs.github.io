@@ -35,19 +35,6 @@
         <section>
           <article class="post">
             <header>
-              <div><a href="/articles/TestPhotos.html" class="postTitle">Adding Photos</a>
-                <p class="postDate">Posted Date: Oct 7,  2015</p>
-              </div>
-              <section class="content"><p>I am interested in how images can be added to the Wintersmith system. To start with, I’ve inserted a couple of random&nbsp;photos.  </p>
-<p>They photos seem to scale fairly well, but I can probably improve that. But what if I want to use a different photo in the mobile versus desktop version? At the moment, I don’t know how that can be done.&nbsp;Javascript?</p>
-<p><img src="/img/road.png" alt="Random Road"></p>
-<p><img src="/img/mytest.png" alt="Random Street"></p>
-
-              </section>
-            </header>
-          </article>
-          <article class="post">
-            <header>
               <div><a href="/articles/Preprocessors.html" class="postTitle">Do I need Sass or Less?</a>
                 <p class="postDate">Posted Date: Oct 7,  2015</p>
               </div>
@@ -59,8 +46,31 @@
 <li>Coffeescript translates into&nbsp;Javascript</li>
 <li><span class="caps">HAML</span> translates into&nbsp;HTML</li>
 </ul>
+<p><strong>What features of Sass/Less make it&nbsp;helpful?</strong></p>
+<ol>
+<li><p><strong><span class="caps">CSS</span> Nesting</strong>. This makes it easier to read the <span class="caps">CSS</span> file when you are styling a web&nbsp;site.</p>
+</li>
+<li><p><strong>Variables</strong>. In Sass you can define a variable for an item like a color that is used in many places in the web site. The variable is declared once. The variable name is used each time an element is set to the color.  If the color changes for the web site, only the variable needs to be&nbsp;updated.  </p>
+</li>
+<li><p><strong>Mixins</strong>. A mixin allows you to define a snippet in <span class="caps">CSS</span> so you can use the same code in many places. You can write your own mixins, or use a library like the Compass or Bourbon. Mixins are often used for the repetitive CSS that is required for cross browser&nbsp;compatibility.</p>
+</li>
+</ol>
+<p><strong>Answer to my question: Do I need Sass or&nbsp;Less?</strong></p>
+<p>Possibly in future. It sounds like the value of using it would come from adding it along with a library (Compass/Bourbon), so there would be the inevitable learning curve for that.  As well as the complexities of adding the node.js version (libSass) and learning how to compile it into <span class="caps">CSS</span>. For now I am answering my question with a no.  But it’s on the list for the&nbsp;future.</p>
 
-                <p class="more"><a href="/articles/Preprocessors.html">read more</a></p>
+              </section>
+            </header>
+          </article>
+          <article class="post">
+            <header>
+              <div><a href="/articles/TestPhotos.html" class="postTitle">Adding Photos</a>
+                <p class="postDate">Posted Date: Oct 7,  2015</p>
+              </div>
+              <section class="content"><p>I am interested in how images can be added to the Wintersmith system. To start with, I’ve inserted a couple of random&nbsp;photos.  </p>
+<p>They photos seem to scale fairly well, but I can probably improve that. But what if I want to use a different photo in the mobile versus desktop version? At the moment, I don’t know how that can be done.&nbsp;Javascript?</p>
+<p><img src="/img/road.png" alt="Random Road"></p>
+<p><img src="/img/mytest.png" alt="Random Street"></p>
+
               </section>
             </header>
           </article>
