@@ -23,7 +23,7 @@
 &lt;li&gt;HAML translates into HTML&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;There’s a lot of information there. I’ll definitely be leaving Coffeescript and HAML/Jade until a later date. But would it make sense to start now with Sass or Less now?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What features of Sass/Less make it helpful?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;what-features-of-sass-less-make-it-helpful-&quot;&gt;What features of Sass/Less make it helpful?&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;CSS Nesting&lt;/strong&gt;. This makes it easier to read the CSS file when you are styling a web site.&lt;/p&gt;
 &lt;/li&gt;
@@ -32,7 +32,7 @@
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Mixins&lt;/strong&gt;. A mixin allows you to define a snippet in CSS so you can use the same code in many places. You can write your own mixins, or use a library like the Compass or Bourbon. Mixins are often used for the repetitive CSS that is required for cross browser compatibility.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;My current answer to the question - Do I need Sass or Less:&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;my-current-answer-to-the-question-do-i-need-sass-or-less-&quot;&gt;My current answer to the question - Do I need Sass or Less:&lt;/h2&gt;
 &lt;p&gt;It sounds like the value of using it would come from adding it along with a library (Compass/Bourbon), so there would be the inevitable learning curve for that.  As well as the complexities of adding the node.js version (libSass) and learning how to compile it into CSS, and add it into Wintersmith. For now I am answering my question with a no.  But it’s on the list for the future. Along with Coffeescript and HAML/Jade… it’s a long list.&lt;/p&gt;
 </description>
     </item>
@@ -42,8 +42,8 @@
       <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/TestPhotos.html</guid>
       <author></author>
-      <description>&lt;p&gt;I am interested in how images can be added to the Wintersmith system. To start with, I’ve inserted a couple of random photos.  &lt;/p&gt;
-&lt;p&gt;The photos seem to scale fairly well, but I can probably improve that. But what if I want to use a different photo in the mobile versus desktop version? At the moment, I don’t know how that can be done. Javascript?&lt;/p&gt;
+      <description>&lt;p&gt;I am interested in how images can be added to the Wintersmith system. To start with, I’ve inserted a couple of random photos.&lt;br&gt;&lt;span class=&quot;more&quot;&gt;read more&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The photos seem to scale fairly well, and I can probably improve that. But what if I want to use a different photo in the mobile versus desktop version? At the moment, I don’t know how that can be done. Javascript?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/road.png&quot; alt=&quot;Random Road&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/mytest.png&quot; alt=&quot;Random Street&quot;&gt;&lt;/p&gt;
 </description>
@@ -55,8 +55,9 @@
       <guid isPermaLink="true">http://localhost:8080/articles/WhyWintersmith.html</guid>
       <author></author>
       <description>&lt;p&gt;I’ve worked with Help and Manual, RoboHelp, and MadCap Flare and I’ve become accustomed to being able to single source to webhelp, pdf, chm and other formats quickly.  I’d like to have one of those systems for my own writing.  &lt;/p&gt;
-&lt;p&gt;Each of the commercial help authoring products has great features, and if someone was to give me a free copy, I would happily work away. However, Murphy’s Law states that if I buy one of these products, my next project will be in one of the others. And by the time I return to the product I purchased it will be out of date.  So how to set up my home writing system without spending too much? Options abound.  In all sorts of directions. Everything seems so expensive.  Lower cost options: Scribner? Jekyll and git? Gosh. OxygenXML has a $200 version for home use.  Hmmm… maybe? No, that didn’t work out.  I looked at Jekyll but read that it works best on Mac, and although I have a Mac, I do most of my work on Windows. &lt;/p&gt;
-&lt;p&gt;So I decided to try the Wintersmith site generator.  In the process I learned:&lt;/p&gt;
+&lt;p&gt;Each of the commercial help authoring products has great features, and if someone was to give me a free copy, I would happily work away. However, Murphy’s Law states that if I buy one of these products, my next project will be in one of the others. And by the time I return to the product I purchased it will be out of date.  So how to set up my home writing system without spending too much? Options abound.  In all sorts of directions. Everything seems so expensive.  Lower cost options: Scribner? Jekyll and git? Gosh. OxygenXML has a $200 version for home use.  Hmmm… maybe? No, that didn’t work out.  I looked at Jekyll but read that it works best on Mac, and although I have a Mac, I do most of my work on Windows. 
+&lt;span class=&quot;more&quot;&gt;read more&lt;/span&gt;
+So I decided to try the Wintersmith site generator.  In the process I learned:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How to host a free web site on Github: &lt;a href=&quot;http://jmdocs.github.io&quot;&gt;jmdocs.github.io&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;More about Markdown, and the various different types of Markdown.&lt;/li&gt;
