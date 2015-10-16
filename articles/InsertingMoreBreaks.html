@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width" initial-scale="1">
-    <title>About - Julia's Wintersmith Blog
+    <title>Inserting &quot;Read More&quot; breaks - Julia's Wintersmith Blog
     </title>
     <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="Someday I may know something">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
@@ -31,12 +31,16 @@
       </div>
       <div class="content pure-u-1 pure-u-md-3-4">
         <header>
-          <h1>About</h1>
-          <p class="postDate">Oct 5,  2015</p>
-          <div class="postContent"><p>I am a Technical Writer and I created this blog to see how a static site generator might used for documentation&nbsp;projects. </p>
-<p>I got the idea to try this out after reading this <a href="http://idratherbewriting.com/2015/09/29/how-are-you-doing-docs/">I’d Rather be Writing</a>&nbsp;article.</p>
-<p>I have the blog now, but I’m still looking into how this might be used for documentation. There are a lot of pieces to these things! When I have time I’d like to learn more about pdf generators, node.js, responsive design, and several hundred other things that might be&nbsp;helpful.</p>
-<p>It’s a work in&nbsp;progress.</p>
+          <h1>Inserting &quot;Read More&quot; breaks</h1>
+          <p class="postDate">Oct 16,  2015</p>
+          <div class="postContent"><p>Wintersmith can be set to display the first section of a text with a ‘read more’ link to the full&nbsp;text.</p>
+<p>I learned from <a href="http://www.sitepoint.com/creating-posts-custom-metadata-data-wintersmith/">Brian Rinaldi’s site</a> that the “read more” link is automatically inserted whenever one of the following is inserted into an article&nbsp;page:</p>
+<ul>
+<li>a heading at the <code>&lt;h2&gt;</code> level</li>
+<li>the <code>&lt;hr&gt;</code> tag </li>
+<li>the span code: <code>&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;</code></li>
+</ul>
+<p>I’ve started using the <code>&lt;hr&gt;</code> tag and it seems to be working.  I updated the css file for <code>&lt;hr&gt;</code> with “display:none” so that a line doesn’t display in the&nbsp;post.</p>
 </div>
         </header>
         <footer>

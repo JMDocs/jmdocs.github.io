@@ -14,22 +14,31 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
   
 }
 
+code {
+  color: red;
+  font-family: monospace;
+  font-size: 1.3em;
+}
+
 body, p {
   
   line-height: 1.52;
   background-color: #f8f8f8;
   text-rendering: optimizeLegibility;
-  
 }
   
+p {
+  padding-bottom: .5em;
+}
 
 h1 {
-    font-size: 2em;
-    
+    font-size: 1.8em;
 }
+
 h2 {
-    font-size: 1.5em;
-    margin-top: 1em;
+    font-size: 1.2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
 
 }
 h3 {
@@ -49,20 +58,21 @@ h6 {
     margin: 2.33em 0;
 }
 
+hr {
+  display:none;
+}
+
+
 
 a {
     text-decoration: none;
     color: #0000FF;
+   
 }
 a:hover,
 a:focus {
     color: #ff8000;
 }
-
-code {
-    font-family: monospace;
-}
-
 
 .archive ul {
     list-style: none;
@@ -74,28 +84,6 @@ code {
     margin: 5px 0;
 }
 
-
-
-.year h2 {
-    margin: 0.2em 0;
-}
-
-.me {
-    cursor: pointer;
-    border-radius: 20%;
-    border: 0.2em solid white;
-}
-
-/* LAYOUT CSS */
-.pure-img-responsive {
-    max-width: 100%;
-    height: auto;
-}
-
-#layout {
-    padding: 0;
-}
-
 .header {
     text-align: center;
     top: auto;
@@ -103,33 +91,17 @@ code {
 }
 
 .sidebar {
-/*    background: rgb(61, 79, 93);*/
     background: #1569C7;
-   
     color: #fff;
 }
 
-/*
-.brand-title,
-.brand-tagline {
-    margin: 0;
-    font-family: 'Raleway';
-}
-.brand-title {
-    text-transform: uppercase;
-}
-.brand-tagline {
-    font-weight: 300;
-    color: rgb(176, 202, 219);
-}
-*/
 nav {
   display: inline-block;
     margin: 0px;
     padding: 0;
     list-style: none;
-  
 }
+
 .nav-list {
    display: inline-block;
     margin: 0;
@@ -156,9 +128,6 @@ nav {
     border: 2px solid rgb(61, 146, 201);
     text-decoration: none;
 }
-
-
-
   
 .post-images {
     margin: 1em 0;
@@ -169,37 +138,32 @@ nav {
     color: #fff;
     text-shadow: 0 1px 1px #333;
 }
-*/
+
 .content {
-    max-width: 900px;
-    padding: 2em 1em 0;
+  padding: 1em 1em 0 1em;
+  max-width: 900px;
 }
 
-
-.postContent p, ul, ol {
-  padding-top: .5em;
+.postContent {
+  padding-left: 1em;
+}
+.postContent ul, ol {
+  padding-left: 3em;
   padding-bottom: .5em;
 }
-
-.postContent ul, ol {
-  padding-left: 5%;
-}
-
 
 .postDate {
   color: #17354b;
   font-size: 90%;
   font-weight: 400;
-  
+  padding-bottom: 1.2em;
 }
 
 .postLink a {
-  padding-left: 1em;
+  padding-left: 1%;
 }
 
-.post h2 {
-  padding: 0
-}
+
 
 footer {
     text-align: center;
@@ -208,14 +172,13 @@ footer {
   
 footer a {
     color: #17354b;
-    
 }
-
 
 @media (min-width: 48em) {
     .content {
         padding: 2em 4em 0 3em;
         margin-left: 25%;
+    
     }
 
     .header {
@@ -228,89 +191,6 @@ footer a {
         top: 0;
         bottom: 0;
     }
-}
 
-.animated {
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 0.8s;
-    animation-duration: 0.8s;
-}
-
-.fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    -webkit-transform: translate3d(100%, 0,-400px);
-    transform: translate3d(100%, 0,-400px);
-    opacity: 0;
-  }
-  100% {
-   -webkit-transform: translate3d(0,0,0);
-   transform: translate3d(0,0,0);
-   opacity: 1;
- }
-}
-
-@keyframes fadeIn {
-  0% {
-    transform: translate3d(100%,0,-400px);
-    opacity: 0;
-  }
-  100% {
-    transform: translate3d(0,0,0);
-    opacity: 1;
- }
-}
-
-
-@-webkit-keyframes tumbleMe {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-
-    50% {
-        border-radius: 50%;
-    }
-
-    100% {
-        -webkit-transform: rotate(1080deg);
-        transform: rotate(1080deg);
-    }
-}
-
-@keyframes tumbleMe {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-
-    50% {
-        border-radius: 50%;
-    }
-
-    100% {
-        -webkit-transform: rotate(1080deg);
-        transform: rotate(1080deg);
-    }
-}
-
-.me:hover, .tumbleMe {
-    -webkit-animation-name: tumbleMe;
-    animation-name: tumbleMe;
-    -webkit-animation-duration: 1.25s;
-    animation-duration: 1.25s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-timing-function: ease;
-    animation-timing-function: ease;
 }
 
