@@ -53,17 +53,16 @@
 </description>
     </item>
     <item>
-      <title>Adding Photos</title>
+      <title>Adding Images and Photos</title>
       <link>http://localhost:8080/articles/TestPhotos.html</link>
       <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/TestPhotos.html</guid>
       <author></author>
-      <description>&lt;p&gt;I am interested in how images can be added to the Wintersmith system. To start with, I’ve inserted a couple of random photos. &lt;/p&gt;
-&lt;hr&gt;
-
-&lt;p&gt;The photos seem to scale fairly well, and I can probably improve that. But what if I want to use a different photo in the mobile versus desktop version? At the moment, I don’t know how that can be done. Javascript?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/road.png&quot; alt=&quot;Random Road&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/img/mytest.png&quot; alt=&quot;Random Street&quot;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;When using with different HAT systems, I tend to work with two or three image styles. In basic Markdown, there is only the img tag itself to work with. However, classes can be added by inserting html into the Markdown: &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Basic Markdown&lt;/strong&gt;: &lt;code&gt;![Image Ideas](/img/manageimages.png)&lt;/code&gt; &lt;strong&gt;versus&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;HTML entered into Markdown:&lt;/strong&gt; &lt;code&gt;&amp;lt;img class=&amp;quot;testing&amp;quot; src=&amp;quot;/img/manageimages.png&amp;quot;&amp;gt;&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;Both methods just use one line, so it does not add complexity to use the HTML syntax. For now I’ll just use the basic Markdown syntax with an img (centered, with a max-width of 100%). When I need more styling, I’ll start using the HTML syntax. &lt;/p&gt;
+&lt;p&gt;As with most areas to do with responsive design, one topic leads to another, which leads to more topics. One recommendation I can take advantage of now is to use TinyPNG as I go to make the pngs smaller. Topics for future research include:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/manageimages.png&quot; alt=&quot;Image Ideas&quot;&gt;&lt;/p&gt;
 </description>
     </item>
     <item>

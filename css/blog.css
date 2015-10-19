@@ -28,7 +28,7 @@ body, p {
 }
   
 p {
-  padding-bottom: .5em;
+  padding-bottom: .7em;
 }
 
 h1 {
@@ -172,6 +172,22 @@ footer {
   
 footer a {
     color: #17354b;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.testside1 {
+  max-width: 50%;
+    float: left;
+}
+
+.testside2 {
+  max-width: 50%;
+    float: right;
 }
 
 @media (min-width: 48em) {
