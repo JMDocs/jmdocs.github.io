@@ -5,29 +5,27 @@
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://localhost:8080</link>
     <description>Someday I may know something</description>
-    <pubDate>Thu, 15 Oct 2015 17:00:00 -0700</pubDate>
+    <pubDate>Wed, 09 Mar 2016 16:00:00 -0800</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>Inserting &quot;Read More&quot; breaks</title>
-      <link>http://localhost:8080/articles/InsertingMoreBreaks.html</link>
-      <pubDate>Thu, 15 Oct 2015 17:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/InsertingMoreBreaks.html</guid>
+      <title>Adobe Captivate and Articulate Storyline</title>
+      <link>http://localhost:8080/articles/CaptivateandStoryline.html</link>
+      <pubDate>Wed, 09 Mar 2016 16:00:00 -0800</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/CaptivateandStoryline.html</guid>
       <author></author>
-      <description>&lt;p&gt;Wintersmith can be set to display the first section of a text with a ‘read more’ link to the full text.&lt;/p&gt;
-&lt;p&gt;I learned from &lt;a href=&quot;http://www.sitepoint.com/creating-posts-custom-metadata-data-wintersmith/&quot;&gt;Brian Rinaldi’s site&lt;/a&gt; that the “read more” link is automatically inserted whenever one of the following is inserted into an article page:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;a heading at the &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; level&lt;/li&gt;
-&lt;li&gt;the &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; tag &lt;/li&gt;
-&lt;li&gt;the span code: &lt;code&gt;&amp;lt;span class=&amp;quot;more&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I’ve started using the &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; tag and it seems to be working.  I updated the css file for &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; with “display:none” so that a line doesn’t display in the post.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Adobe Captivate&lt;/strong&gt; and &lt;strong&gt;Articulate Storyline&lt;/strong&gt; are used for html and elearning projects. I worked through the main features of both programs and created the demos listed below. It was fun to try both products and I would enjoy working more with either, if a project came up. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jmdocs.github.io/Security/story.html&quot;&gt;Demo 1 - Computer Security&lt;/a&gt;&lt;br&gt;Articulate Storyline project (non-responsive, scales to fit screen). This demo uses a few of Storyline’s quiz features.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jmdocs.github.io/Bike/story.html&quot;&gt;Demo 2 - Slider&lt;/a&gt;&lt;br&gt;Articulate Storyline project (non-responsive, scales to fit screen). This slider uses transitions and layers, as well as some of the animation features available in Storyline.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jmdocs.github.io/Garmin/index.html&quot;&gt;Demo 3 - Garmin&lt;/a&gt;&lt;br&gt;Adobe Captivate project (responsive). I got this idea on a bike ride when a friend told me she didn’t know what the buttons on her Garmin do. She was afraid to press the wrong button. She always rides with her phone on hand, so the idea would be to have a touch based help description of the basic features to consult over coffee, or on the go. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jmdocs.github.io/Survey/index.html&quot;&gt;Demo 4 - Survey&lt;/a&gt;&lt;br&gt;Adobe Captivate project (responsive). This survey uses Captivate variables to track the answers to the questions and then displays the survey results in the final screen. It’s a bit long for a demo, but if you click through you’ll come to the results screen at the end.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jmdocs.github.io/Colorbars/multiscreen.html&quot;&gt;Demo 5 - Colorbars&lt;/a&gt;&lt;br&gt;Adobe Captivate project (non-responsive). I got the idea from a challenge on the Articulate Storyline site and decided to create it in Captivate while testing different Captivate features.&lt;/p&gt;
 </description>
     </item>
     <item>
       <title>Do I need Sass or Less?</title>
       <link>http://localhost:8080/articles/Preprocessors.html</link>
-      <pubDate>Wed, 07 Oct 2015 17:00:00 -0700</pubDate>
+      <pubDate>Thu, 15 Oct 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/Preprocessors.html</guid>
       <author></author>
       <description>&lt;p&gt;In reading around on the web about how to implement Wintersmith, I came upon many blogs about the benefits of using Sass/Less for writing and maintaining CSS.&lt;/p&gt;
@@ -53,7 +51,23 @@
 </description>
     </item>
     <item>
-      <title>Adding Images and Photos</title>
+      <title>Wintersmith - Inserting &quot;Read More&quot; breaks</title>
+      <link>http://localhost:8080/articles/InsertingMoreBreaks.html</link>
+      <pubDate>Wed, 07 Oct 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/InsertingMoreBreaks.html</guid>
+      <author></author>
+      <description>&lt;p&gt;Wintersmith can be set to display the first section of a text with a ‘read more’ link to the full text.&lt;/p&gt;
+&lt;p&gt;I learned from &lt;a href=&quot;http://www.sitepoint.com/creating-posts-custom-metadata-data-wintersmith/&quot;&gt;Brian Rinaldi’s site&lt;/a&gt; that the “read more” link is automatically inserted whenever one of the following is inserted into an article page:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a heading at the &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; level&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; tag &lt;/li&gt;
+&lt;li&gt;the span code: &lt;code&gt;&amp;lt;span class=&amp;quot;more&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’ve started using the &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; tag and it seems to be working.  I updated the css file for &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; with “display:none” so that a line doesn’t display in the post.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Wintersmith - Adding Images and Photos</title>
       <link>http://localhost:8080/articles/TestPhotos.html</link>
       <pubDate>Tue, 06 Oct 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/TestPhotos.html</guid>
@@ -71,17 +85,21 @@
       <pubDate>Mon, 05 Oct 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/WhyWintersmith.html</guid>
       <author></author>
-      <description>&lt;p&gt;I’ve worked with Help and Manual, RoboHelp, and MadCap Flare and I’ve become accustomed to being able to single source to webhelp, pdf, chm and other formats quickly.  I’d like to have one of those systems for my own writing.  &lt;/p&gt;
-&lt;p&gt;Each of the commercial help authoring products has great features, and if someone was to give me a free copy, I would happily work away. However, Murphy’s Law states that if I buy one of these products, my next project will be in one of the others. And by the time I return to the product I purchased it will be out of date.  So how to set up my home writing system without spending too much? Options abound.  In all sorts of directions. Everything seems so expensive.  Lower cost options: Scribner? Jekyll and git? Gosh. OxygenXML has a $200 version for home use.  Hmmm… maybe? No, that didn’t work out.  I looked at Jekyll but read that it works best on Mac, and although I have a Mac, I do most of my work on Windows. &lt;/p&gt;
+      <description>&lt;p&gt;I’ve worked with Help and Manual, RoboHelp, and MadCap Flare and I’ve become accustomed to being able to single source to webhelp, pdf, chm and other formats quickly.    &lt;/p&gt;
+&lt;p&gt;Each of the commercial help authoring products has great features, and if someone was to give me a free copy, I would happily work away. However, Murphy’s Law states that if I buy one of these products, my next project will be in one of the others. And by the time I return to the product I purchased it will be out of date.  For writing systems options abound.  In all sorts of directions. Everything seems so expensive.  Lower cost options:  OxygenXML? Jekyll and git?&lt;/p&gt;
+&lt;p&gt;OxygenXML has a $200 version for home use.  I downloaded the trial version and created a simple DITA project and then wanted to test the outputs. The company documentation  includes a topic about PDF customization: &lt;a href=&quot;http://www.oxygenxml.com/doc/versions/17.0/ug-editor/#topics/dita_pdf_output_customization.html&quot;&gt;DITA to PDF Customization&lt;/a&gt;, but I could not get it to work. I emailed customer support to ask if a person would need to know XSLT to change the default PDF output and the response was yes, it requires a knowledge of XSLT &lt;strong&gt;OR&lt;/strong&gt; it can be done using CSS customizations and the commercial Prince XML engine (cost $500US). The cost of buying both OxygenXML and Prince brings the purchase of OxygenXML up to about the same cost as the help authoring software. So that ended the OxygenXML experiment.&lt;/p&gt;
+&lt;p&gt;I looked at Jekyll but read that it works best on Mac, and although I have a Mac, I do most of my work on Windows. &lt;/p&gt;
 &lt;hr&gt;
 
-&lt;p&gt;So I decided to try the Wintersmith site generator. I’m not sure yet where this is going! But in the process I learned:&lt;/p&gt;
+&lt;p&gt;So I decided to try the Wintersmith site generator. In the process of creating this blog I learned:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How to host a free web site on Github: &lt;a href=&quot;http://jmdocs.github.io&quot;&gt;jmdocs.github.io&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;More about Markdown, and the various different types of Markdown.&lt;/li&gt;
 &lt;li&gt;How a static web site generator works. For Wintersmith, this included an intro to npm, jade, coffeescript plus a fair bit of time on css.&lt;/li&gt;
+&lt;li&gt;Using purio.css to format a responsive web site.&lt;/li&gt;
+&lt;li&gt;More about html editors: Brackets, Notepad++, and Sublime Text. I’ve settled on Brackets for now.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt; This project has taken me quite far from writing while doing the setup. It will be interesting to see how comfortable it is to work with Markdown and pushing posts out. How this sort of system will work for documentation (and pdfs) is still a question. But now I have a blog to use while I continue the investigation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt; The Wintersmith system made it possible to create a responsive blog that is easy to update and manage in a free github repository. As a documentation system, it would be very difficult to use and is lacking major features. For example, a PDF output does not exist and would need to be added using Pandoc or another product. The commercial help authoring systems are looking better and better.  But now I have a blog to use while I continue the investigation.&lt;/p&gt;
 &lt;p&gt;Thanks to the developer of &lt;a href=&quot;http://localhost:8080/articles/johan-nordberg.com&quot;&gt;Wintersmith&lt;/a&gt;, as well as:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://thisisdallas.github.io/Simple-Grid&quot;&gt;Simple Grid&lt;/a&gt; - for getting me started on how grids work. Part way along I switched to pureio.&lt;/li&gt;
@@ -99,10 +117,9 @@
       <pubDate>Sun, 04 Oct 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://localhost:8080/articles/About.html</guid>
       <author></author>
-      <description>&lt;p&gt;I am a Technical Writer and I created this blog to see how a static site generator might used for documentation projects. &lt;/p&gt;
-&lt;p&gt;I got the idea to try this out after reading this &lt;a href=&quot;http://idratherbewriting.com/2015/09/29/how-are-you-doing-docs/&quot;&gt;I’d Rather be Writing&lt;/a&gt; article.&lt;/p&gt;
-&lt;p&gt;I have the blog now, but I’m still looking into how this might be used for documentation. There are a lot of pieces to these things! When I have time I’d like to learn more about pdf generators, node.js, responsive design, and several hundred other things that might be helpful.&lt;/p&gt;
-&lt;p&gt;It’s a work in progress.&lt;/p&gt;
+      <description>&lt;p&gt;I am a Technical Writer and I created this site as an experiment to see how a static site generator might used for documentation projects. &lt;/p&gt;
+&lt;p&gt;I got the idea to try this out after reading this &lt;a href=&quot;http://idratherbewriting.com/2015/09/29/how-are-you-doing-docs/&quot;&gt;I’d Rather be Writing (Sept 29, 2015)&lt;/a&gt; article while searching for an inexpensive authoring solution. After setting up the Wintersmith static site generator, I concluded that it would be awkward as a documentation system. It lacks crucial features that are in commercial help authoring tools (Help and Manual, RoboHelp, MadCap Flare) such as content reuse, link updating, and the ability to single source to webhelp, pdf, chm and other formats. The author of the blog post that started me on this project had similar conclusions a few months after writing the initial post: &lt;a href=&quot;http://idratherbewriting.com/2015/12/19/those-authoring-tool-questions/&quot;&gt;I’d Rather be Writing (Dec 19, 2015)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, as a blog, this system works really well. I’ll continue to experiment with it as time goes on. When I have time I’d like to learn more about pdf generators, node.js, responsive design, and several hundred other things that might be helpful.&lt;/p&gt;
 </description>
     </item>
   </channel>
